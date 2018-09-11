@@ -8,7 +8,8 @@ public class kalkulator {
         double multi=x*y;
         System.out.println(x+"+"+y+"="+add);
         System.out.println(x+"-"+y+"="+sub);
-        System.out.println(x+"/"+y+"="+diff);
+        System.out.print(x+"/"+y+"=");
+        System.out.println(diff);
         System.out.println(x+"*"+y+"="+multi);
         System.out.print("Czy x jest większe od 0? ");
         System.out.println(x>0);
