@@ -13,6 +13,10 @@ public class PersonTest {
         System.out.println(person1.age);
         person1.showInfo();
 
+        TimeMachine time= new TimeMachine();
+        time.backInTime(person1);
+
+        time.timeTravel(person1,-6);
 
     }
 }
