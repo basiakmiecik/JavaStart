@@ -4,6 +4,8 @@ public class PersonTest {
         System.out.println(person1.firstName);
         System.out.println(person1.age);
 
+        Person person2= new Person("Bogdan", "Duch");
+        person2.showInfo();
         //person1.age=person1.age+1;
         person1.increaseAge();
 
@@ -17,6 +19,15 @@ public class PersonTest {
         time.backInTime(person1);
 
         time.timeTravel(person1,-6);
+
+        ComplexCalculator comcalc= new ComplexCalculator();
+
+        comcalc.add(person1);
+        comcalc.addTwo(person1);
+
+        System.out.println(comcalc.add(person1));
+        System.out.println(comcalc.addTwo(person1));
+
 
     }
 }

@@ -15,6 +15,9 @@ public class Test {
         System.out.println("Koniec programu");
 
         calc.addShow(6,5);*/
+
+        calc.addAndShow(5,7,8);
+        calc.addAndShow(2,2);
     }
 
 }

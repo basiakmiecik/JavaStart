@@ -10,6 +10,12 @@ public class Person {
         age=a;
         city=c;
     }
+
+    Person(String fn, String ln){
+        firstName=fn;
+        lastName=ln;
+    }
+
     void increaseAge(){
         age++;
     }
