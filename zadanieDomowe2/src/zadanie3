@@ -1,0 +1,17 @@
+Klasa to …ZBIOR CECH (ZMIENNYCH) OPISUJĄCYCH WYBRANĄ RZECZ (OBIEKT)
+Obiekt to …OKREŚLONA REPREZENTACJA KLASY i jest tworzony na podstawie …CECH ZAWARTYCH W KLASIE
+Zmienna to OKREŚLONA REPREZENTACJA OBIEKTU (NP. CAR1)
+Każda zmienna musi mieć określony RODZAJ (WARTOŚĆ)…, np. int, albo String.
+W klasie mogą się znajdować WARTOŚCI, KONSTRUKTORY i METODY
+KLASY są wywoływane przez operator NEW… i służą do tworzenia nowych obiektów.
+Jeśli w klasie zdefiniowano chociaż jeden …PARAMETR to kompilator nie wygeneruje dla nas TYPU… domyślnego.
+Zakładając, że istnieje klasa Car, to przy zapisie:
+Car car1 = new Car(„BMW”, „M5”, 2007, 2.6);
+
+car1 nazywamy …,ZMIENNĄ
+
+a przy zapisie:
+
+Car car1 = new Car(„BMW”, „M5”, 2007, 2.6);  Car car2 = car1;
+
+car1 I car2 to dwie REFERENCJE… wskazujące na ten sam …OBIEKT
