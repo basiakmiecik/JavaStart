@@ -11,5 +11,17 @@ public class FigureTest {
         System.out.println("Pole kwadratu wynosi: "+calc.squareArea(square1));
         System.out.println("Obwód trójkąta wynosi: "+ calc.trianglePerimeter(triangle1));
         System.out.println("Obwód prostokąta wynosi: "+calc.rectPerimeter(rectangle1));
+
+        double SquareA= square1.SquareArea();
+        System.out.println("Pole kwadratu wynosi: "+SquareA);
+
+        double RectA=rectangle1.RectangleArea();
+        System.out.println("Pole prostokąta wynosi: "+RectA);
+
+        double CircleA=circle1.CircleArea();
+        System.out.println("Pole okręgu wynosi: "+ CircleA);
+
+        double TriangleP= triangle1.TrianglePerimeter();
+        System.out.println("Obwód trójkąta wynosi: "+ TriangleP);
     }
 }

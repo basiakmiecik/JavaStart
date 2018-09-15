@@ -4,4 +4,8 @@ public class Square {
     Square(double side){
         this.side=side;
     }
+
+    double SquareArea(){
+        return side*side;
+    }
 }
