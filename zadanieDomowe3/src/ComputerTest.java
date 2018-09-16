@@ -7,13 +7,17 @@ public class ComputerTest {
         Computer comp1=new Computer("Tesla", memory1, processor1);
         Computer comp2= new Computer("IBM", memory2, processor2);
 
-        System.out.println("Nazwa: "+comp1.name);
-        System.out.println(" pamięć: "+ comp1.mem.producent+ " "+comp1.mem.model+" "+comp1.mem.clocking+" MHz  "+comp1.mem.quantity+" GB");
-        System.out.println(" procesor: "+ comp1.proc.producent+" "+comp1.proc.model+" "+comp1.proc.clocking+" GHz");
+        comp1.Showinfo();
+        OverClock overclock= new OverClock();
+        overclock.increaseCpuClock(comp1, 1.2);
 
-        System.out.println("Nazwa: "+comp2.name);
-        System.out.println(" pamięć: "+ comp2.mem.producent+ " "+comp2.mem.model+" "+comp2.mem.clocking+" MHz  "+comp2.mem.quantity+" GB");
-        System.out.println(" procesor: "+ comp2.proc.producent+" "+comp2.proc.model+" "+comp2.proc.clocking+" GHz");
+        System.out.println("\n Po podkręceniu procesora: ");
+        comp1.Showinfo();
+
+        comp2.Showinfo();
+        overclock.decreaseCpuClock(comp2, 0.5);
+        System.out.println("\n Po zmniejszeniu taktowania procesora: ");
+        comp2.Showinfo();
 
     }
 }
