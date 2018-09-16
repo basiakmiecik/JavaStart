@@ -18,6 +18,6 @@ public class ComputerTest {
         overclock.decreaseCpuClock(comp2, 0.5);
         System.out.println("\n Po zmniejszeniu taktowania procesora: ");
         comp2.Showinfo();
+        }
 
     }
-}
