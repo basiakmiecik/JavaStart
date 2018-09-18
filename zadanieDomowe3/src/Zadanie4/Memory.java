@@ -1,3 +1,4 @@
+package Zadanie4;
 public class Memory {
     String producent;
     String model;

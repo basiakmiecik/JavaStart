@@ -1,3 +1,4 @@
+package Zadanie4;
 public class DataComputer {
 
         Processor processor1=new Processor("Intel", "i9-7940X", 3.1);

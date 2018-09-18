@@ -1,3 +1,4 @@
+package Zadanie4;
 public class OverClock {
 
     void increaseCpuClock(Computer comp, double upCpu){

@@ -1,3 +1,4 @@
+package Zadanie4;
 public class Computer {
     String name;
     Memory mem;

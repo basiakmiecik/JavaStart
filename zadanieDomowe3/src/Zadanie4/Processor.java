@@ -1,3 +1,4 @@
+package Zadanie4;
 public class Processor {
     String producent;
     String model;
