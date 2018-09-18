@@ -14,6 +14,8 @@ public class Computer {
     }
 
 
+
+
     void Showinfo(){
         System.out.println("Nazwa: "+name);
         System.out.println(" pamięć: "+ mem.producent+ " "+mem.model+" "+mem.clocking+" MHz  "+mem.quantity+" GB");
