@@ -1,5 +1,5 @@
 package com.company.check;
-import com.company.model.Number3;
+import com.company.liczby.Number3;
 
 import java.util.Locale;
 import java.util.Scanner;

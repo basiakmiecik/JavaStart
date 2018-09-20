@@ -1,4 +1,4 @@
-package com.company.model;
+package com.company.dzientyg;
 public class Days {
    private int daynumber;
 

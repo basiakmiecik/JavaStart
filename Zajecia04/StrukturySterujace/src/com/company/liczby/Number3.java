@@ -1,4 +1,4 @@
-package com.company.model;
+package com.company.liczby;
 public class Number3 {
     private int number1;
     private int number2;

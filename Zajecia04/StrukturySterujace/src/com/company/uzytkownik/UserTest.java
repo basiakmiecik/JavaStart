@@ -1,7 +1,6 @@
-package com.company.check;
-import com.company.model.User;
+package com.company.uzytkownik;
+import com.company.uzytkownikdane.User;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class UserTest {

@@ -1,4 +1,4 @@
-package com.company.model;
+package com.company.liczbydzialania;
 
 public class Number {
     private int number;

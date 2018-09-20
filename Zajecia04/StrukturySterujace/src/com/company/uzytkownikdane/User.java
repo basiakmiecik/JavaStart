@@ -1,4 +1,4 @@
-package com.company.model;public class User {
+package com.company.uzytkownikdane;public class User {
     private String pesel;
     private int age;
     private String firstName;

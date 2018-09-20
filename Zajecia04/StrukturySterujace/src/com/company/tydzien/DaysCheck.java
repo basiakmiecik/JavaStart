@@ -1,5 +1,5 @@
-package com.company.check;
-import com.company.model.Days;
+package com.company.tydzien;
+import com.company.dzientyg.Days;
 
 public class DaysCheck {
     public static void main(String[] args) {
