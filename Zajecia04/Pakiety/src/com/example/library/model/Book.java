@@ -36,7 +36,7 @@ public class Book {
     }
 
     public void showInfo(){
-        System.out.println(title+" "+author+" "+isbn);
+        System.out.println(getTitle()+" "+getAuthor()+" "+getIsbn());
     }
 
 }
